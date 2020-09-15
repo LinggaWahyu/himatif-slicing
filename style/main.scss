@@ -1,0 +1,21 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "fonts";
+@import "navbar";
+@import "footer";
+
+@import "pages/home";
+@import "pages/sejarah";
+@import "pages/berita";
+@import "pages/gallery";
+@import "pages/kontak";
+@import "pages/detail-berita";
+@import "pages/kegiatan-besar";
+@import "pages/komunitas";
+@import "pages/detail-kegiatan-besar";
+@import "pages/kepengurusan";
+@import "pages/about-developer";
+
+@import "components/news";

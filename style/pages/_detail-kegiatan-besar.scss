@@ -1,0 +1,55 @@
+.detail-kegiatan-besar-section {
+  padding-top: 120px !important;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 90px !important;
+  }
+
+  .kegiatan-image {
+    margin-top: 20px;
+    width: 320px;
+  }
+
+  .kegiatan-description {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    .social-media-description {
+      padding-left: 0px;
+
+      p {
+        float: left;
+        font-size: 18px;
+      }
+
+      a {
+        color: #000000;
+
+        .fa {
+          font-size: 28px;
+          padding-top: 5px;
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .galeri-kegiatan {
+      margin-top: 32px;
+
+      h5 {
+        margin-bottom: 25px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 26px;
+        color: #1d3557;
+      }
+    }
+
+    p {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 200%;
+      color: #000000;
+    }
+  }
+}

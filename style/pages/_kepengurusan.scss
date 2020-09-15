@@ -1,0 +1,83 @@
+.pengurus-section {
+  margin-top: 120px !important;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 90px !important;
+  }
+
+  .nav-tabs {
+    border: none;
+  }
+
+  .nav-item {
+    border: none;
+    border-color: unset;
+
+    .nav-link {
+      border: none;
+      margin-right: 55px;
+      padding-bottom: 10px;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 35px;
+      color: #747171;
+
+      @include media-breakpoint-down(md) {
+        margin-right: 28px;
+        font-size: 20px;
+      }
+
+      &.active {
+        border-bottom: 3px solid #1d3557;
+        color: #1d3557;
+      }
+    }
+  }
+
+  .profil-pengurus {
+    margin-top: 65px;
+
+    .profil-divisi {
+      margin-bottom: 100px;
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 50px;
+      }
+
+      .profil-title {
+        padding: 18px 0px;
+        background: #457b9d;
+
+        @include media-breakpoint-down(md) {
+          padding: 9px 0px;
+        }
+      }
+
+      p {
+        margin: 0px 0px 2px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+
+        @include media-breakpoint-down(md) {
+          font-size: 9px;
+          margin: 0px;
+        }
+      }
+
+      h2 {
+        margin-bottom: 60px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 35px;
+        color: #1d3557;
+
+        @include media-breakpoint-down(md) {
+          margin-bottom: 30px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.komunitas-section {
+  padding-top: 120px !important;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 90px !important;
+  }
+
+  .komunitas-item {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+
+    @include media-breakpoint-down(md) {
+      margin-right: 0px;
+    }
+  }
+}

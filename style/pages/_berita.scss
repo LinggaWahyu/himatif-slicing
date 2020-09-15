@@ -1,0 +1,23 @@
+.berita-section {
+  margin-top: 120px !important;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 90px !important;
+  }
+
+  .news-title {
+    a {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      color: #000000;
+      background: none;
+
+      &:hover {
+        text-decoration: none;
+        background: none;
+        color: #1d3557;
+      }
+    }
+  }
+}
